@@ -129,7 +129,7 @@ See [`schema/plugin-manifest.schema.json`](schema/plugin-manifest.schema.json) a
 | `license`          |    ✔    | License, preferably an [SPDX identifier](https://spdx.org/licenses/).                     |
 | `projectUrl`       |    ✔    | Homepage or source code (https).                                                          |
 | `logo`             |          | https URL of a PNG, JPEG, GIF, WebP or SVG image (max. 1 MB). Square images work best.    |
-| `types`            |    ✔    | Implemented extension points: `GameMetadataProvider`, `DownloadProvider`, `GameyfinTask`. |
+| `types`            |    ✔    | Implemented extension points: `GameMetadataProvider`, `GameStoreProvider`, `DownloadProvider`, `GameyfinTask`. |
 | `tags`             |          | Up to 10 lowercase tags (`[a-z0-9][a-z0-9-]{0,29}`).                                      |
 | `maintainers`      |    ✔    | GitHub usernames (not published).                                                         |
 | `releases`         |    ✔    | List of releases (see below).                                                             |

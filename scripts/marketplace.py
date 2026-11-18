@@ -36,7 +36,7 @@ USER_AGENT = "gameyfin-plugin-marketplace-ci (+https://github.com/gameyfin/plugi
 RESERVED_ID_PREFIX = "org.gameyfin."
 
 # Extension points of the Gameyfin plugin API (simple class names, as reported by Gameyfin)
-KNOWN_PLUGIN_TYPES = {"GameMetadataProvider", "DownloadProvider", "GameyfinTask"}
+KNOWN_PLUGIN_TYPES = {"GameMetadataProvider", "GameStoreProvider", "DownloadProvider", "GameyfinTask"}
 
 PLUGIN_ID_REGEX = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._-]{1,127}$")
 SEMVER_REGEX = re.compile(

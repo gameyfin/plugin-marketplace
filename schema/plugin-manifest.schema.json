@@ -73,6 +73,7 @@
       "items": {
         "enum": [
           "GameMetadataProvider",
+          "GameStoreProvider",
           "DownloadProvider",
           "GameyfinTask"
         ]
