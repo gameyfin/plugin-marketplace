@@ -18,6 +18,13 @@
       "url": "https://github.com/gameyfin/plugin-steamgriddb-metadata/releases/download/v1.1.2/plugin-steamgriddb-metadata-1.1.2.jar",
       "sha512sum": "e743c8c9a10b7dd47dd063f8833db917aefc515e575e01f9de4dbfe063f3770b359b14f755615c10db75fb1b03793cdd1fb93a64f75541c1358d5c1bd27e4b1a",
       "date": "2026-11-18T15:55:09Z"
+    },
+    {
+      "version": "1.1.3",
+      "requires": ">=2.7.0",
+      "url": "https://github.com/gameyfin/plugin-steamgriddb-metadata/releases/download/v1.1.3/plugin-steamgriddb-metadata-1.1.3.jar",
+      "sha512sum": "0c27a3394dfcb5890bdfb679fc6cfcb6a98a63aabc2a6c0e013529ebbf0ab49119f56220a711e200300b16993f5f1743f4e7dd6373667bc61041e8d9ed4ba222",
+      "date": "2026-11-18T16:15:54Z"
     }
   ]
 }
