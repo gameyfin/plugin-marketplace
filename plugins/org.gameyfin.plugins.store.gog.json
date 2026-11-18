@@ -1,0 +1,33 @@
+{
+  "id": "org.gameyfin.plugins.store.gog",
+  "name": "GOG Store",
+  "shortDescription": "Finds GOG games and tracks their latest versions and DLC using GOG's official endpoints.",
+  "description": "Looks up GOG products, tracks their latest versions and lists their DLC.<br>Uses GOG's official endpoints only.",
+  "provider": "grimsi",
+  "license": "MIT",
+  "projectUrl": "https://github.com/gameyfin/plugin-gog-store",
+  "logo": "https://raw.githubusercontent.com/gameyfin/plugin-gog-store/main/src/main/resources/logo.svg",
+  "types": [
+    "GameStoreProvider"
+  ],
+  "tags": [
+    "official",
+    "game-store",
+    "gog",
+    "versions",
+    "dlc"
+  ],
+  "maintainers": [
+    "grimsi",
+    "Shade1982"
+  ],
+  "releases": [
+    {
+      "version": "1.0.2",
+      "requires": ">=2.7.0",
+      "url": "https://github.com/gameyfin/plugin-gog-store/releases/download/v1.0.2/plugin-gog-1.0.2.jar",
+      "sha512sum": "e71cd27b10b9f72a638deace5a0cd19c1eb70956e40a60e1eb392cbefe57c7fde0fbb4ef66e5315b099150858d83918ee376b959a5d557a801456ac3cdfa11fd",
+      "date": "2026-11-18T19:01:33Z"
+    }
+  ]
+}
