@@ -283,6 +283,152 @@
           "sha512sum": "e743c8c9a10b7dd47dd063f8833db917aefc515e575e01f9de4dbfe063f3770b359b14f755615c10db75fb1b03793cdd1fb93a64f75541c1358d5c1bd27e4b1a"
         }
       ]
+    },
+    {
+      "id": "org.gameyfin.plugins.store.epic",
+      "name": "Epic Games Store (egdata.app)",
+      "shortDescription": "Tracks Epic Games Store versions, DLC, and editions using egdata.app.",
+      "description": "Tracks versions, DLC and editions of games on the Epic Games Store via egdata.app.<br>Epic only exposes build data to its own launcher, so this plugin uses the community catalog egdata.app.",
+      "provider": "grimsi",
+      "license": "MIT",
+      "projectUrl": "https://github.com/gameyfin/plugin-epicgames-store",
+      "logo": "https://raw.githubusercontent.com/gameyfin/plugin-epicgames-store/main/src/main/resources/logo.svg",
+      "types": [
+        "GameStoreProvider"
+      ],
+      "tags": [
+        "official",
+        "game-store",
+        "epic-games",
+        "versions",
+        "dlc",
+        "editions",
+        "egdata"
+      ],
+      "releases": [
+        {
+          "version": "1.0.2",
+          "date": "2026-11-18T19:02:10Z",
+          "requires": ">=2.7.0",
+          "url": "https://github.com/gameyfin/plugin-epicgames-store/releases/download/v1.0.2/plugin-epic-1.0.2.jar",
+          "sha512sum": "ac23531b7576caa76acb120364c359936847cb67fb4eea9c0b552ca8beffe6d58f0fbf0d0fc0bf1b3944da8767165f8fc8093ba852559d4cac2cf3ae82606e02"
+        }
+      ]
+    },
+    {
+      "id": "org.gameyfin.plugins.store.gog",
+      "name": "GOG Store",
+      "shortDescription": "Finds GOG games and tracks their latest versions and DLC using GOG's official endpoints.",
+      "description": "Looks up GOG products, tracks their latest versions and lists their DLC.<br>Uses GOG's official endpoints only.",
+      "provider": "grimsi",
+      "license": "MIT",
+      "projectUrl": "https://github.com/gameyfin/plugin-gog-store",
+      "logo": "https://raw.githubusercontent.com/gameyfin/plugin-gog-store/main/src/main/resources/logo.svg",
+      "types": [
+        "GameStoreProvider"
+      ],
+      "tags": [
+        "official",
+        "game-store",
+        "gog",
+        "versions",
+        "dlc"
+      ],
+      "releases": [
+        {
+          "version": "1.0.2",
+          "date": "2026-11-18T19:01:33Z",
+          "requires": ">=2.7.0",
+          "url": "https://github.com/gameyfin/plugin-gog-store/releases/download/v1.0.2/plugin-gog-1.0.2.jar",
+          "sha512sum": "e71cd27b10b9f72a638deace5a0cd19c1eb70956e40a60e1eb392cbefe57c7fde0fbb4ef66e5315b099150858d83918ee376b959a5d557a801456ac3cdfa11fd"
+        }
+      ]
+    },
+    {
+      "id": "org.gameyfin.plugins.store.gogdb",
+      "name": "GOG Builds (GOGDB)",
+      "shortDescription": "Tracks GOG build history and suggests editions using the community-run GOGDB archive.",
+      "description": "Tracks the build history of GOG products and suggests their editions.<br>Data comes from the community-run GOGDB archive (gogdb.org), which is not an official GOG API.<br>This plugin cannot search for games. Enable another GOG store plugin to search; without one, products can only be added by ID or URL.",
+      "provider": "grimsi",
+      "license": "MIT",
+      "projectUrl": "https://github.com/gameyfin/plugin-gogdb-store",
+      "logo": "https://raw.githubusercontent.com/gameyfin/plugin-gogdb-store/main/src/main/resources/logo.svg",
+      "types": [
+        "GameStoreProvider"
+      ],
+      "tags": [
+        "official",
+        "game-store",
+        "gog",
+        "gogdb",
+        "build-history",
+        "editions"
+      ],
+      "releases": [
+        {
+          "version": "1.0.2",
+          "date": "2026-11-18T19:02:06Z",
+          "requires": ">=2.7.0",
+          "url": "https://github.com/gameyfin/plugin-gogdb-store/releases/download/v1.0.2/plugin-gogdb-1.0.2.jar",
+          "sha512sum": "97f5a1c52cb93024868b857f3238cf001f06c2e68b3ff7f14b9f1d28eb81e5ec3d217a712389d71533475698b8c0d01dfaf65aa170157af80e9ad17fe267bc5d"
+        }
+      ]
+    },
+    {
+      "id": "org.gameyfin.plugins.store.itch",
+      "name": "itch.io",
+      "shortDescription": "Searches itch.io and tracks game uploads using public itch.io pages.",
+      "description": "Search itch.io and track the downloads of its games.<br>itch.io has no public API for this, so the plugin reads public pages and can break when the site changes.Versions are the uploads of a game (with the version name if the developer provides one) and have no dates,so Gameyfin cannot tell which one is newest. itch.io has no DLC or editions.",
+      "provider": "grimsi",
+      "license": "MIT",
+      "projectUrl": "https://github.com/gameyfin/plugin-itchio-store",
+      "logo": "https://raw.githubusercontent.com/gameyfin/plugin-itchio-store/main/src/main/resources/logo.svg",
+      "types": [
+        "GameStoreProvider"
+      ],
+      "tags": [
+        "official",
+        "game-store",
+        "itch-io",
+        "versions"
+      ],
+      "releases": [
+        {
+          "version": "1.0.2",
+          "date": "2026-11-18T19:02:06Z",
+          "requires": ">=2.7.0",
+          "url": "https://github.com/gameyfin/plugin-itchio-store/releases/download/v1.0.2/plugin-itch-1.0.2.jar",
+          "sha512sum": "ca3607562822d2e7ff94eb69a4ffa05b810af42e2ebd0cd8c62805d2ebe8631360b82317d5e31048e3d9a148c1f63f13503c9804865065c8e4c018f602f07cf4"
+        }
+      ]
+    },
+    {
+      "id": "org.gameyfin.plugins.store.steam",
+      "name": "Steam Store",
+      "shortDescription": "Finds Steam games and lists their DLC using the official Steam Store endpoints.",
+      "description": "Looks up Steam products and lists their DLC.<br>Uses the official store.steampowered.com endpoints.",
+      "provider": "grimsi",
+      "license": "MIT",
+      "projectUrl": "https://github.com/gameyfin/plugin-steam-store",
+      "logo": "https://raw.githubusercontent.com/gameyfin/plugin-steam-store/main/src/main/resources/logo.svg",
+      "types": [
+        "GameStoreProvider"
+      ],
+      "tags": [
+        "official",
+        "game-store",
+        "steam",
+        "dlc"
+      ],
+      "releases": [
+        {
+          "version": "1.0.2",
+          "date": "2026-11-18T19:01:00Z",
+          "requires": ">=2.7.0",
+          "url": "https://github.com/gameyfin/plugin-steam-store/releases/download/v1.0.2/plugin-steamstore-1.0.2.jar",
+          "sha512sum": "223367d97691a75794e353c1fa4bc7d940fa9239a7d663aebcca74ff60928b024e2df7fe7fd40c4b32578eeabfdd44bcc057e973149009aa3b8a68e72fc552ad"
+        }
+      ]
     }
   ]
 }
