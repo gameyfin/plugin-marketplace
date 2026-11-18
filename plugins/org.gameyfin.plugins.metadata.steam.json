@@ -1,0 +1,30 @@
+{
+  "id": "org.gameyfin.plugins.metadata.steam",
+  "name": "Steam Metadata",
+  "shortDescription": "Fetches game metadata from Steam using undocumented public endpoints.",
+  "description": "Fetches metadata from Steam using undocumented public API endpoints.<br>This is more of a proof of concept and is prone to breaking when the Steam API changes.",
+  "provider": "grimsi",
+  "license": "MIT",
+  "projectUrl": "https://github.com/gameyfin/plugin-steam-metadata",
+  "logo": "https://raw.githubusercontent.com/gameyfin/plugin-steam-metadata/main/src/main/resources/logo.svg",
+  "types": [
+    "GameMetadataProvider"
+  ],
+  "tags": [
+    "official",
+    "metadata",
+    "steam"
+  ],
+  "maintainers": [
+    "grimsi"
+  ],
+  "releases": [
+    {
+      "version": "1.3.3",
+      "requires": ">=2.7.0",
+      "url": "https://github.com/gameyfin/plugin-steam-metadata/releases/download/v1.3.3/plugin-steam-metadata-1.3.3.jar",
+      "sha512sum": "49a634539c9a661dcf44079590cdf0c1606367dd40881b0e862cd5864da9bc70d57cef76fdd9d76368a2a0cf2afc86bfc57bd154fa5b173e08a6aa7bdf8b050f",
+      "date": "2026-11-18T16:16:18Z"
+    }
+  ]
+}
