@@ -401,6 +401,34 @@
           "sha512sum": "ca3607562822d2e7ff94eb69a4ffa05b810af42e2ebd0cd8c62805d2ebe8631360b82317d5e31048e3d9a148c1f63f13503c9804865065c8e4c018f602f07cf4"
         }
       ]
+    },
+    {
+      "id": "org.gameyfin.plugins.store.steam",
+      "name": "Steam Store",
+      "shortDescription": "Finds Steam games and lists their DLC using the official Steam Store endpoints.",
+      "description": "Looks up Steam products and lists their DLC.<br>Uses the official store.steampowered.com endpoints.",
+      "provider": "grimsi",
+      "license": "MIT",
+      "projectUrl": "https://github.com/gameyfin/plugin-steam-store",
+      "logo": "https://raw.githubusercontent.com/gameyfin/plugin-steam-store/main/src/main/resources/logo.svg",
+      "types": [
+        "GameStoreProvider"
+      ],
+      "tags": [
+        "official",
+        "game-store",
+        "steam",
+        "dlc"
+      ],
+      "releases": [
+        {
+          "version": "1.0.2",
+          "date": "2026-11-18T19:01:00Z",
+          "requires": ">=2.7.0",
+          "url": "https://github.com/gameyfin/plugin-steam-store/releases/download/v1.0.2/plugin-steamstore-1.0.2.jar",
+          "sha512sum": "223367d97691a75794e353c1fa4bc7d940fa9239a7d663aebcca74ff60928b024e2df7fe7fd40c4b32578eeabfdd44bcc057e973149009aa3b8a68e72fc552ad"
+        }
+      ]
     }
   ]
 }
