@@ -2,7 +2,7 @@
   "id": "org.gameyfin.plugins.metadata.igdb",
   "name": "IGDB Metadata",
   "shortDescription": "Fetches game metadata from IGDB. Requires a Twitch account and IGDB API credentials.",
-  "description": "Fetches metadata from IGDB.<br>Requires a Twitch account and IGDB API credentials.<br>Details see in the [IGDB API docs](https://api-docs.igdb.com/#account-creation).",
+  "description": "Fetches metadata from IGDB.\n\nRequires a Twitch account and IGDB API credentials.\n\nDetails see in the [IGDB API docs](https://api-docs.igdb.com/#account-creation).",
   "provider": "grimsi",
   "license": "MIT",
   "projectUrl": "https://github.com/gameyfin/plugin-igdb-metadata",
