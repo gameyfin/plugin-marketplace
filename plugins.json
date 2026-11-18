@@ -314,6 +314,36 @@
           "sha512sum": "ac23531b7576caa76acb120364c359936847cb67fb4eea9c0b552ca8beffe6d58f0fbf0d0fc0bf1b3944da8767165f8fc8093ba852559d4cac2cf3ae82606e02"
         }
       ]
+    },
+    {
+      "id": "org.gameyfin.plugins.store.gogdb",
+      "name": "GOG Builds (GOGDB)",
+      "shortDescription": "Tracks GOG build history and suggests editions using the community-run GOGDB archive.",
+      "description": "Tracks the build history of GOG products and suggests their editions.<br>Data comes from the community-run GOGDB archive (gogdb.org), which is not an official GOG API.<br>This plugin cannot search for games. Enable another GOG store plugin to search; without one, products can only be added by ID or URL.",
+      "provider": "grimsi",
+      "license": "MIT",
+      "projectUrl": "https://github.com/gameyfin/plugin-gogdb-store",
+      "logo": "https://raw.githubusercontent.com/gameyfin/plugin-gogdb-store/main/src/main/resources/logo.svg",
+      "types": [
+        "GameStoreProvider"
+      ],
+      "tags": [
+        "official",
+        "game-store",
+        "gog",
+        "gogdb",
+        "build-history",
+        "editions"
+      ],
+      "releases": [
+        {
+          "version": "1.0.2",
+          "date": "2026-11-18T19:02:06Z",
+          "requires": ">=2.7.0",
+          "url": "https://github.com/gameyfin/plugin-gogdb-store/releases/download/v1.0.2/plugin-gogdb-1.0.2.jar",
+          "sha512sum": "97f5a1c52cb93024868b857f3238cf001f06c2e68b3ff7f14b9f1d28eb81e5ec3d217a712389d71533475698b8c0d01dfaf65aa170157af80e9ad17fe267bc5d"
+        }
+      ]
     }
   ]
 }
