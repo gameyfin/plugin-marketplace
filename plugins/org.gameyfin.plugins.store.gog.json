@@ -3,7 +3,7 @@
   "name": "GOG Store",
   "shortDescription": "Finds GOG games and tracks their latest versions and DLC using GOG's official endpoints.",
   "description": "Looks up GOG products, tracks their latest versions and lists their DLC.<br>Uses GOG's official endpoints only.",
-  "provider": "grimsi",
+  "provider": "Shade1982, grimsi",
   "license": "MIT",
   "projectUrl": "https://github.com/gameyfin/plugin-gog-store",
   "logo": "https://raw.githubusercontent.com/gameyfin/plugin-gog-store/main/src/main/resources/logo.svg",

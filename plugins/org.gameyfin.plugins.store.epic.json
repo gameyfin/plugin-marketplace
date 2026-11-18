@@ -3,7 +3,7 @@
   "name": "Epic Games Store (egdata.app)",
   "shortDescription": "Tracks Epic Games Store versions, DLC, and editions using egdata.app.",
   "description": "Tracks versions, DLC and editions of games on the Epic Games Store via egdata.app.<br>Epic only exposes build data to its own launcher, so this plugin uses the community catalog egdata.app.",
-  "provider": "grimsi",
+  "provider": "Shade1982, grimsi",
   "license": "MIT",
   "projectUrl": "https://github.com/gameyfin/plugin-epicgames-store",
   "logo": "https://raw.githubusercontent.com/gameyfin/plugin-epicgames-store/main/src/main/resources/logo.svg",

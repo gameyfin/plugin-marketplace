@@ -3,7 +3,7 @@
   "name": "GOG Builds (GOGDB)",
   "shortDescription": "Tracks GOG build history and suggests editions using the community-run GOGDB archive.",
   "description": "Tracks the build history of GOG products and suggests their editions.<br>Data comes from the community-run GOGDB archive (gogdb.org), which is not an official GOG API.<br>This plugin cannot search for games. Enable another GOG store plugin to search; without one, products can only be added by ID or URL.",
-  "provider": "grimsi",
+  "provider": "Shade1982, grimsi",
   "license": "MIT",
   "projectUrl": "https://github.com/gameyfin/plugin-gogdb-store",
   "logo": "https://raw.githubusercontent.com/gameyfin/plugin-gogdb-store/main/src/main/resources/logo.svg",

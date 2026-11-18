@@ -3,7 +3,7 @@
   "name": "itch.io",
   "shortDescription": "Searches itch.io and tracks game uploads using public itch.io pages.",
   "description": "Search itch.io and track the downloads of its games.<br>itch.io has no public API for this, so the plugin reads public pages and can break when the site changes.Versions are the uploads of a game (with the version name if the developer provides one) and have no dates,so Gameyfin cannot tell which one is newest. itch.io has no DLC or editions.",
-  "provider": "grimsi",
+  "provider": "Shade1982, grimsi",
   "license": "MIT",
   "projectUrl": "https://github.com/gameyfin/plugin-itchio-store",
   "logo": "https://raw.githubusercontent.com/gameyfin/plugin-itchio-store/main/src/main/resources/logo.svg",
