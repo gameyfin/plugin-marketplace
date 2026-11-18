@@ -138,6 +138,33 @@
       ]
     },
     {
+      "id": "org.gameyfin.plugins.metadata.igdb",
+      "name": "IGDB Metadata",
+      "shortDescription": "Fetches game metadata from IGDB. Requires a Twitch account and IGDB API credentials.",
+      "description": "Fetches metadata from IGDB.<br>Requires a Twitch account and IGDB API credentials.<br>Details see in the [IGDB API docs](https://api-docs.igdb.com/#account-creation).",
+      "provider": "grimsi",
+      "license": "MIT",
+      "projectUrl": "https://github.com/gameyfin/plugin-igdb-metadata",
+      "logo": "https://raw.githubusercontent.com/gameyfin/plugin-igdb-metadata/main/src/main/resources/logo.svg",
+      "types": [
+        "GameMetadataProvider"
+      ],
+      "tags": [
+        "official",
+        "metadata",
+        "igdb"
+      ],
+      "releases": [
+        {
+          "version": "1.2.2",
+          "date": "2026-11-18T16:16:07Z",
+          "requires": ">=2.7.0",
+          "url": "https://github.com/gameyfin/plugin-igdb-metadata/releases/download/v1.2.2/plugin-igdb-metadata-1.2.2.jar",
+          "sha512sum": "f97bd271100b8ae638625973a4318c6724ee6488467ab928e734d1232267963a38d5ee90a432c0ee3195905dfe46c4fae6caa0ce54257454a9141d4f2a9ca9d1"
+        }
+      ]
+    },
+    {
       "id": "org.gameyfin.plugins.metadata.steam",
       "name": "Steam Metadata",
       "shortDescription": "Fetches game metadata from Steam using undocumented public endpoints.",
