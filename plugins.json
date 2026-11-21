@@ -193,6 +193,13 @@
       ],
       "releases": [
         {
+          "version": "2.3.0",
+          "date": "2026-11-21T16:21:35Z",
+          "requires": ">=2.7.0",
+          "url": "https://github.com/gameyfin/plugin-torrent-download/releases/download/v2.3.0/plugin-torrent-download-2.3.0.jar",
+          "sha512sum": "8df7d42d91a3dcab710827e61160d94522f2884a03606b2b7714ca97af8c40b9c273e21e577099db9e426360bd1cfdcc5e9820df192493f99fe00a27efeaa47f"
+        },
+        {
           "version": "2.2.2",
           "date": "2026-11-18T18:51:17Z",
           "requires": ">=2.7.0",
