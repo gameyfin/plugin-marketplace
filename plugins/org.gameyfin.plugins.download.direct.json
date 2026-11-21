@@ -26,6 +26,13 @@
       "url": "https://github.com/gameyfin/plugin-direct-download/releases/download/v1.2.2/plugin-direct-download-1.2.2.jar",
       "sha512sum": "cdf34ff35de3f5f3ac3b5b4aaecbe63f44b15d731710ce24ae0dc2020797c999999d17759abe6f4decc86e1dc6dabd0b00207c24492e028742518ee3380c6858",
       "date": "2026-11-18T18:51:05Z"
+    },
+    {
+      "version": "1.4.0",
+      "requires": ">=2.7.1",
+      "url": "https://github.com/gameyfin/plugin-direct-download/releases/download/v1.4.0/plugin-direct-download-1.4.0.jar",
+      "sha512sum": "9cc19dbfd4c32b5a37cb9b0858fec0e1c2bbc6ef783705e572c7ca0defc6e0ef70dab00e0affa00b7d6d3fb1071ec6225e0579f480a2141329013ca50f2d3155",
+      "date": "2026-11-21T14:54:30Z"
     }
   ]
 }
