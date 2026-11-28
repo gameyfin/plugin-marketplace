@@ -25,6 +25,13 @@
       "url": "https://github.com/gameyfin/plugin-igdb-metadata/releases/download/v1.2.2/plugin-igdb-metadata-1.2.2.jar",
       "sha512sum": "f97bd271100b8ae638625973a4318c6724ee6488467ab928e734d1232267963a38d5ee90a432c0ee3195905dfe46c4fae6caa0ce54257454a9141d4f2a9ca9d1",
       "date": "2026-11-18T16:16:07Z"
+    },
+    {
+      "version": "1.3.0",
+      "requires": ">=2.8.0",
+      "url": "https://github.com/gameyfin/plugin-igdb-metadata/releases/download/v1.3.0/plugin-igdb-metadata-1.3.0.jar",
+      "sha512sum": "428c733f715646c0ea0ae5fd390a8b02627f837c9079d397dce09d380d86dfc6a17a76494350354294cc4fba3b59dcba2014cb334b47e4c67f2dabf095dfc1c3",
+      "date": "2026-11-28T14:12:43Z"
     }
   ]
 }
